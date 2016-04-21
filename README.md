@@ -11,6 +11,6 @@ This is sample project for restful API server with the Django web framework.
     . .venv/bin/activate
     pip install django==1.9.5
     pip install djangorestframework==3.3.3
-    git clone 
+    git clone git@github.com:iandmyhand/DjangoRestAPISampleProject.git
     cd DjangoRestAPISampleProject
     ```
