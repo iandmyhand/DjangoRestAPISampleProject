@@ -1,4 +1,4 @@
-# Django Restful API Sample Project Template
+# Django Restful API Sample Template Project
 This is sample project for restful API server with the Django web framework.
 
 ## Set up
