@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-21 09:46+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: www/exception/error_codes.py:7
+#, python-format
+msgid "SAMPLE_%(name)s_EXCEPTION"
+msgstr "This is %(name)s exception."
+
+#: www/exception/error_codes.py:13
+msgid "PAGE_NOT_FOUND"
+msgstr "URI not found."
+
+#: www/exception/error_codes.py:18
+msgid "SHOULD_BE_AJAX"
+msgstr "Should be AJAX request."
+
+#: www/exception/error_codes.py:23
+msgid "FAILED_TO_CONNECT_EXTERNAL_API"
+msgstr "Failed to connect external API."
+
+#: www/exception/error_codes.py:28 www/exception/response.py:37
+#: www/exception/response.py:45
+msgid "UNKNOWN_ERROR"
+msgstr "Unknown error."
+
+#: www/settings/base.py:87
+msgid "English"
+msgstr "English"
+
+#: www/settings/base.py:88
+msgid "Korean"
+msgstr "Korean"
