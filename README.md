@@ -14,5 +14,7 @@ This is sample project for restful API server with the Django web framework.
     pip install django-oauth2-provider
     git clone git@github.com:iandmyhand/DjangoRestAPISampleProject.git
     cd DjangoRestAPISampleProject
+    python manage.py makemigrations --settings=www.settings.test ping
+    python manage.py test ping
     python manage.py runserver 0.0.0.0:8000
     ```
