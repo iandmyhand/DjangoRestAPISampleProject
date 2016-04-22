@@ -3,3 +3,5 @@
 # Except this file
 !.gitignore
 !base.py
+!local_sample.py
+!test.py

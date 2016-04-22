@@ -1,3 +1,11 @@
 from django.db import models
 
-# Create your models here.
+from django.conf import settings
+
+
+class Ping(models.Model):
+    test = models.SmallIntegerField()
+
+    class Meta:
+        db_table = 'ping'
+        managed = getattr(settings, 'UNDER_TEST', False)
